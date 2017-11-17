@@ -6,10 +6,10 @@ class TwitterApi
 	def self.initialize_twitter #module from twitter gem's documentation page
 		puts "Initializing Twitter's analysis"
 		client = Twitter::REST::Client.new do |config|
-	  		config.consumer_key = "GTvnHEwckh5HdjVhCHrXhC5X8"
-	  		config.consumer_secret = "YCEnOTJ55Kat9aySMbMnX4IbObiOntPtbEWJlEURatzA6aShLZ"
-	  		config.access_token = "869602481101254657-B5lPR0aJOSL9LQps6hc3wPdUlRhM2zG"
-	  		config.access_token_secret = "XJsm2As76jegYXr3JDfBA7YqGy9fhtEdquDpD1K7xzDwf"
+	  		config.consumer_key = ""
+	  		config.consumer_secret = ""
+	  		config.access_token = ""
+	  		config.access_token_secret = ""
 		end
 	end
 
