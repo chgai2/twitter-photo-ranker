@@ -5,8 +5,8 @@ require 'csv'
 class FlickrApi
 	def self.initialize_flickraw #from flickraw's documentation page
 		puts "Initializing Flickr's analysis"
-		FlickRaw.api_key="9d0358bdb316fb63337122f6d5f8a8a5"
-		FlickRaw.shared_secret="6b33cdb8f950b78a"
+		FlickRaw.api_key=""
+		FlickRaw.shared_secret=""
 	end
 
 	def self.count_photo_comments(months_back = 12) #initialized month back variable to 12 in order to collect data (no dctech hashtag in last 30 days)
